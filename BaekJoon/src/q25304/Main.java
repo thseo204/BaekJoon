@@ -15,8 +15,9 @@ public class Main {
 		for(int i = 0; i < sumN; i++) {
 			value = sc.nextInt();
 			N = sc.nextInt();
-			sum += value;
+			sum += (value * N);
 		}
+		sc.close();
 		
 		if(sumValue == sum) {
 			System.out.println("Yes");
